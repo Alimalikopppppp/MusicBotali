@@ -38,7 +38,6 @@
     </repositories>
 
     <dependencies>
-        <!-- Discord Dependencies -->
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
@@ -47,11 +46,9 @@
         <dependency>
             <groupId>com.github.jagrosh</groupId>
             <artifactId>jda-utilities</artifactId>
-            <version>3.0.5</version>
+            <version>3.0.6</version>
             <type>pom</type>
         </dependency>
-
-        <!-- Music Dependencies -->
         <dependency>
             <groupId>dev.arbjerg</groupId>
             <artifactId>lavaplayer</artifactId>
@@ -62,18 +59,16 @@
             <artifactId>common</artifactId>
             <version>1.5.2</version>
         </dependency>
-	<dependency>
-	    <groupId>com.github.jagrosh</groupId>
-	    <artifactId>JLyrics</artifactId>
-	    <version>master-SNAPSHOT</version>
-	</dependency>
+        <dependency>
+            <groupId>com.github.jagrosh</groupId>
+            <artifactId>JLyrics</artifactId>
+            <version>master-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.dunctebot</groupId>
             <artifactId>sourcemanagers</artifactId>
             <version>1.9.0</version>
         </dependency>
-
-        <!-- Misc Internal Dependencies -->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -89,8 +84,6 @@
             <artifactId>jsoup</artifactId>
             <version>1.15.3</version>
         </dependency>
-
-        <!-- Testing Dependencies -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
